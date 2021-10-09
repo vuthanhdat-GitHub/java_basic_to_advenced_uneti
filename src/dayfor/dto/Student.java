@@ -67,6 +67,15 @@ public class Student extends Person {
         System.out.println("email: " + this.getEmail());
     }
 
+    public void output() {
+        System.out.println("ten: " + this.getName());
+        System.out.println("gioi tinh: " + this.getGender());
+        System.out.println("dia chi: " + this.getAddress());
+        System.out.println("ngay sinh: " + this.getBirthDay());
+        System.out.println("ma sinh vien: " + this.getStudentCode());
+        System.out.println("email: " + this.getEmail());
+    }
+
     @Override
     public String toString() {
         return "Student{" +
